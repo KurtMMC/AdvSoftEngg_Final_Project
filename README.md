@@ -21,3 +21,40 @@ TeleMed is a responsive front‑end template for a telemedicine/virtual clinic p
 ## Getting started
 
 Open `index.html` in a browser, or serve the folder via any static server. Integrate with your backend of choice for authentication, data, and real‑time features.
+
+## How to run
+
+This is a static front‑end. You can run it in any of the following ways:
+
+### Option 1: Open the files directly
+
+- Double‑click `index.html` to preview the landing page.
+- Open the module dashboards directly:
+	- Admin: `admin/index.html`
+	- Doctor: `doctor/index.html`
+	- Patient: `patient/index.html`
+
+### Option 2: Via XAMPP (Apache)
+
+- Start Apache from the XAMPP Control Panel.
+- Ensure the folder is located at `C:\\xampp\\htdocs\\telemed\\telemed`.
+- In your browser, visit:
+	- <http://localhost/telemed/telemed/>
+	- <http://localhost/telemed/telemed/admin/>
+	- <http://localhost/telemed/telemed/doctor/>
+	- <http://localhost/telemed/telemed/patient/>
+
+### Option 3: VS Code Live Server (quick preview)
+
+- Install the “Live Server” extension in VS Code.
+- Open this project folder in VS Code and click “Go Live” (status bar).
+- Your browser will open to a local URL (for example, <http://127.0.0.1:5500/>). Navigate to the admin/doctor/patient subfolders as needed.
+
+### Optional: simple local server (Python)
+
+```powershell
+cd "C:\xampp\htdocs\telemed\telemed"
+python -m http.server 8000
+```
+
+Then open <http://localhost:8000/> in your browser.
