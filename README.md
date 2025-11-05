@@ -1,4 +1,6 @@
-# TeleMed – Telemedicine Web Template
+# AdvSoftEngg_Final_Project
+
+A responsive telemedicine web template with admin/doctor/patient modules for appointments, services, reports, and payments, built on AdminLTE/Bootstrap with jQuery and DataTables.
 
 TeleMed is a responsive front‑end template for a telemedicine/virtual clinic platform. It includes ready‑made admin, doctor, and patient dashboards to manage appointments, services, reports, and payments. Built with HTML, CSS, and JavaScript on AdminLTE and Bootstrap, with jQuery and DataTables, it’s a solid base you can extend into a full‑stack telehealth solution.
 
